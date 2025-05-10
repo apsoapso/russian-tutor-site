@@ -83,7 +83,7 @@
   h4,
   h5,
   h6 {
-    @apply font-serif font-bold text-gold;
+    @apply font-serif font-bold text-burgundy;
   }
 
   .animate-on-scroll {

@@ -1,4 +1,3 @@
-
 import React from "react";
 import Icon from "@/components/ui/icon";
 
@@ -16,7 +15,7 @@ const ContactItem: React.FC<ContactItemProps> = ({ icon, title, children }) => {
         <Icon name={icon} className="h-5 w-5 text-gold" />
       </div>
       <div>
-        <p className="font-medium">{title}</p>
+        <h4 className="font-medium text-lg text-burgundy">{title}</h4>
         {children}
       </div>
     </div>
