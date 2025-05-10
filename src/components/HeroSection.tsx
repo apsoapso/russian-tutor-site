@@ -58,7 +58,7 @@ const HeroSection: React.FC = () => {
                   />
                 </svg>
               </div>
-              <span className="text-sm font-medium">10+ лет опыта</span>
+              <span className="text-sm font-medium">5+ лет опыта</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-10 h-10 rounded-full bg-burgundy/20 flex items-center justify-center">
