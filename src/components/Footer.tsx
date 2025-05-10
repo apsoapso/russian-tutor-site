@@ -20,25 +20,22 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex gap-3 pt-2">
               <a
-                href="#"
+                href="https://vk.com/stezyapoznaniya?from=groups"
                 className="w-8 h-8 rounded-full bg-cream/10 flex items-center justify-center hover:bg-cream/20 transition-colors"
                 aria-label="Вконтакте"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Icon name="MessageCircleMore" className="h-4 w-4" />
               </a>
               <a
-                href="#"
+                href="https://t.me/stezyapoznaniya"
                 className="w-8 h-8 rounded-full bg-cream/10 flex items-center justify-center hover:bg-cream/20 transition-colors"
                 aria-label="Telegram"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Icon name="Send" className="h-4 w-4" />
-              </a>
-              <a
-                href="#"
-                className="w-8 h-8 rounded-full bg-cream/10 flex items-center justify-center hover:bg-cream/20 transition-colors"
-                aria-label="WhatsApp"
-              >
-                <Icon name="MessageSquare" className="h-4 w-4" />
               </a>
             </div>
           </div>
