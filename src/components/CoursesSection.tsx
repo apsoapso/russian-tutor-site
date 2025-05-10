@@ -100,7 +100,7 @@ const CoursesSection: React.FC = () => {
       description:
         "Углубленный курс по анализу поэтических произведений. Изучение ритма, рифмы, художественных средств и приемов, используемых в поэзии.",
       image:
-        "https://images.unsplash.com/photo-1525972292986-69295aebf4cc?q=80&w=1000",
+        "https://cdn.poehali.dev/files/114358cb-deb7-48b2-9ef6-5ee392cad51d.jfif",
       tags: ["Олимпиады", "Литература"],
       duration: "8 занятий",
       level: "Продвинутый",
@@ -110,7 +110,7 @@ const CoursesSection: React.FC = () => {
       description:
         "Углубленное изучение техник анализа прозаических произведений. Исследование композиции, системы образов, художественного пространства и времени в тексте.",
       image:
-        "https://images.unsplash.com/photo-1580082959156-71b683927af9?q=80&w=1000",
+        "https://cdn.poehali.dev/files/1ab79ea0-73a7-41c2-ad9b-b7e9dca19a57.jpg",
       tags: ["Олимпиады", "Литература"],
       duration: "8 занятий",
       level: "Продвинутый",
