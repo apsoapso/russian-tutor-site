@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import Icon from "@/components/ui/icon";
@@ -13,7 +12,10 @@ const LiteraryClubSection: React.FC = () => {
   ];
 
   return (
-    <section id="literary-club" className="section py-20 bg-cream/50 relative overflow-hidden">
+    <section
+      id="literary-club"
+      className="section py-20 bg-cream/50 relative overflow-hidden"
+    >
       {/* Декоративные элементы фона */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-20 -left-20 w-96 h-96 rounded-full bg-gold/5 blur-3xl"></div>
@@ -23,8 +25,9 @@ const LiteraryClubSection: React.FC = () => {
       <div className="container">
         <h2 className="section-title">Литературный клуб</h2>
         <p className="section-subtitle">
-          Присоединяйтесь к нашему литературному сообществу, где мы вместе читаем, 
-          обсуждаем и анализируем произведения русской и мировой литературы
+          Присоединяйтесь к нашему литературному сообществу, где мы вместе
+          читаем, обсуждаем и анализируем произведения русской и мировой
+          литературы
         </p>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-12">
@@ -32,9 +35,9 @@ const LiteraryClubSection: React.FC = () => {
           <div className="relative h-full flex items-center justify-center">
             <div className="relative w-full max-w-md mx-auto">
               <div className="absolute top-4 left-4 w-full h-full bg-gold/20 rounded-2xl -z-10"></div>
-              <div className="w-full aspect-[4/3] bg-white rounded-2xl overflow-hidden shadow-lg">
+              <div className="w-full aspect-[4/3] bg-[#EEC414] rounded-2xl overflow-hidden shadow-lg">
                 <img
-                  src="https://cdn.poehali.dev/files/b8f6ab53-ca3b-4f6d-bea7-58696c982bd3.png"
+                  src="https://cdn.poehali.dev/files/b3f3a83b-e2d1-4738-84d5-f3fc59fd5c81.jpg"
                   alt="Литературный клуб"
                   className="w-full h-full object-contain"
                 />
@@ -55,7 +58,12 @@ const LiteraryClubSection: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-muted-foreground">
-                    Тем, кто <span className="font-medium text-burgundy">любит</span> или хочет полюбить <span className="font-medium text-burgundy">русскую литературу</span>
+                    Тем, кто{" "}
+                    <span className="font-medium text-burgundy">любит</span> или
+                    хочет полюбить{" "}
+                    <span className="font-medium text-burgundy">
+                      русскую литературу
+                    </span>
                   </p>
                 </div>
               </div>
@@ -66,7 +74,10 @@ const LiteraryClubSection: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-muted-foreground">
-                    Тем, кто хочет научиться <span className="font-medium text-burgundy">видеть тексты по-новому</span>
+                    Тем, кто хочет научиться{" "}
+                    <span className="font-medium text-burgundy">
+                      видеть тексты по-новому
+                    </span>
                   </p>
                 </div>
               </div>
@@ -77,7 +88,8 @@ const LiteraryClubSection: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-muted-foreground">
-                    Тем, кто хочет обогатить свою устную и письменную <span className="font-medium text-burgundy">речь</span>
+                    Тем, кто хочет обогатить свою устную и письменную{" "}
+                    <span className="font-medium text-burgundy">речь</span>
                   </p>
                 </div>
               </div>
@@ -88,7 +100,10 @@ const LiteraryClubSection: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-muted-foreground">
-                    Тем, кто ищет <span className="font-medium text-burgundy">друзей</span> и единомышленников для занимательной беседы и интересного досуга
+                    Тем, кто ищет{" "}
+                    <span className="font-medium text-burgundy">друзей</span> и
+                    единомышленников для занимательной беседы и интересного
+                    досуга
                   </p>
                 </div>
               </div>
@@ -99,7 +114,8 @@ const LiteraryClubSection: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-muted-foreground">
-                    Тем, кто хочет духовного и интеллектуального <span className="font-medium text-burgundy">развития</span>
+                    Тем, кто хочет духовного и интеллектуального{" "}
+                    <span className="font-medium text-burgundy">развития</span>
                   </p>
                 </div>
               </div>
@@ -110,7 +126,11 @@ const LiteraryClubSection: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-muted-foreground">
-                    <span className="font-medium text-burgundy">Олимпиадникам и выпускникам 9-11 классов</span>, которые готовятся к конкурсным и экзаменационным испытаниям по русскому языку и литературе
+                    <span className="font-medium text-burgundy">
+                      Олимпиадникам и выпускникам 9-11 классов
+                    </span>
+                    , которые готовятся к конкурсным и экзаменационным
+                    испытаниям по русскому языку и литературе
                   </p>
                 </div>
               </div>
@@ -121,7 +141,14 @@ const LiteraryClubSection: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-muted-foreground">
-                    Тем, <span className="font-medium text-burgundy">кому есть что сказать</span>, и тем, <span className="font-medium text-burgundy">кто хочет быть услышанным</span>
+                    Тем,{" "}
+                    <span className="font-medium text-burgundy">
+                      кому есть что сказать
+                    </span>
+                    , и тем,{" "}
+                    <span className="font-medium text-burgundy">
+                      кто хочет быть услышанным
+                    </span>
                   </p>
                 </div>
               </div>
@@ -129,7 +156,10 @@ const LiteraryClubSection: React.FC = () => {
 
             <div className="flex flex-wrap items-center gap-6 mt-4">
               <div className="bg-gold/20 px-4 py-2 rounded-lg">
-                <p className="font-medium text-burgundy">Возраст участников: <span className="font-bold text-xl">11+</span></p>
+                <p className="font-medium text-burgundy">
+                  Возраст участников:{" "}
+                  <span className="font-bold text-xl">11+</span>
+                </p>
               </div>
               <Button className="bg-burgundy text-cream hover:bg-burgundy/90">
                 Присоединиться к клубу
@@ -140,10 +170,15 @@ const LiteraryClubSection: React.FC = () => {
 
         {/* Галерея */}
         <div className="mt-20">
-          <h3 className="text-2xl font-serif text-burgundy mb-8 text-center">Галерея</h3>
+          <h3 className="text-2xl font-serif text-burgundy mb-8 text-center">
+            Галерея
+          </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {galleryImages.map((image, index) => (
-              <div key={index} className="overflow-hidden rounded-lg h-64 shadow-md transition-all duration-300 hover:shadow-xl">
+              <div
+                key={index}
+                className="overflow-hidden rounded-lg h-64 shadow-md transition-all duration-300 hover:shadow-xl"
+              >
                 <img
                   src={image}
                   alt={`Фото ${index + 1}`}
