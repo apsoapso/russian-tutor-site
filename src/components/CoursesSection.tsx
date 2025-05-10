@@ -66,7 +66,7 @@ const CourseCard: React.FC<CourseProps> = ({
       </CardContent>
       <CardFooter>
         <Button className="w-full bg-burgundy text-cream hover:bg-burgundy/90">
-          Подробнее о курсе
+          Записаться на курс
         </Button>
       </CardFooter>
     </Card>
