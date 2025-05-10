@@ -145,8 +145,15 @@ const CoursesSection: React.FC = () => {
             Интересует индивидуальная программа? Свяжитесь со мной для
             обсуждения.
           </p>
-          <Button className="bg-burgundy text-cream hover:bg-burgundy/90 text-lg py-6 px-8">
-            Все курсы
+          <Button
+            className="bg-burgundy text-cream hover:bg-burgundy/90 text-lg py-6 px-8"
+            onClick={() =>
+              document
+                .getElementById("contact")
+                ?.scrollIntoView({ behavior: "smooth" })
+            }
+          >
+            Связаться
           </Button>
         </div>
       </div>

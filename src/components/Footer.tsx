@@ -70,10 +70,18 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a
+                  href="#literary-club"
+                  className="text-black/80 hover:text-black transition-colors"
+                >
+                  Литературный клуб
+                </a>
+              </li>
+              <li>
+                <a
                   href="#about"
                   className="text-black/80 hover:text-black transition-colors"
                 >
-                  Обо мне
+                  О наставнике
                 </a>
               </li>
               <li>
@@ -147,19 +155,19 @@ const Footer: React.FC = () => {
               <li className="flex gap-3 items-start">
                 <Icon name="Mail" className="h-5 w-5 text-gold" />
                 <a
-                  href="mailto:info@stezya-poznaniya.ru"
+                  href="mailto:abashkina_aa@mail.ru"
                   className="text-black/80 hover:text-black transition-colors"
                 >
-                  info@stezya-poznaniya.ru
+                  abashkina_aa@mail.ru
                 </a>
               </li>
               <li className="flex gap-3 items-start">
                 <Icon name="Phone" className="h-5 w-5 text-gold" />
                 <a
-                  href="tel:+71234567890"
+                  href="tel:+79296815742"
                   className="text-black/80 hover:text-black transition-colors"
                 >
-                  +7 (123) 456-78-90
+                  +7(929)681-57-42
                 </a>
               </li>
             </ul>

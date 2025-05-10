@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "@/components/ui/button";
 import Icon from "@/components/ui/icon";
 
 const AboutSection: React.FC = () => {
@@ -12,7 +11,7 @@ const AboutSection: React.FC = () => {
       </div>
 
       <div className="container">
-        <h2 className="section-title">Обо мне</h2>
+        <h2 className="section-title">О наставнике</h2>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-12">
           {/* Image column */}
@@ -91,12 +90,6 @@ const AboutSection: React.FC = () => {
                   </p>
                 </div>
               </div>
-            </div>
-
-            <div className="pt-4">
-              <Button className="bg-burgundy text-cream hover:bg-burgundy/90">
-                Узнать больше
-              </Button>
             </div>
           </div>
         </div>

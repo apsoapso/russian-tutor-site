@@ -2,8 +2,16 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import Icon from "@/components/ui/icon";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const LiteraryClubSection: React.FC = () => {
+  const galleryImages = [
+    "https://cdn.poehali.dev/files/608ef03b-769f-4d50-a6c6-cfaf959d6fc0.jpg",
+    "https://cdn.poehali.dev/files/114358cb-deb7-48b2-9ef6-5ee392cad51d.jfif",
+    "https://cdn.poehali.dev/files/e76baf78-b4f8-4379-b644-d5bbb75d9746.jpg",
+    "https://cdn.poehali.dev/files/1ab79ea0-73a7-41c2-ad9b-b7e9dca19a57.jpg",
+  ];
+
   return (
     <section id="literary-club" className="section py-20 bg-cream/50 relative overflow-hidden">
       {/* Декоративные элементы фона */}
@@ -26,9 +34,9 @@ const LiteraryClubSection: React.FC = () => {
               <div className="absolute top-4 left-4 w-full h-full bg-gold/20 rounded-2xl -z-10"></div>
               <div className="w-full aspect-[4/3] bg-white rounded-2xl overflow-hidden shadow-lg">
                 <img
-                  src="https://cdn.poehali.dev/files/608ef03b-769f-4d50-a6c6-cfaf959d6fc0.jpg"
+                  src="https://cdn.poehali.dev/files/b8f6ab53-ca3b-4f6d-bea7-58696c982bd3.png"
                   alt="Литературный клуб"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
             </div>
@@ -127,6 +135,22 @@ const LiteraryClubSection: React.FC = () => {
                 Присоединиться к клубу
               </Button>
             </div>
+          </div>
+        </div>
+
+        {/* Галерея */}
+        <div className="mt-20">
+          <h3 className="text-2xl font-serif text-burgundy mb-8 text-center">Галерея</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {galleryImages.map((image, index) => (
+              <div key={index} className="overflow-hidden rounded-lg h-64 shadow-md transition-all duration-300 hover:shadow-xl">
+                <img
+                  src={image}
+                  alt={`Фото ${index + 1}`}
+                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                />
+              </div>
+            ))}
           </div>
         </div>
       </div>

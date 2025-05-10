@@ -60,7 +60,7 @@ const ContactForm: React.FC = () => {
     <Card className="border-gold/20 shadow-sm bg-white/80">
       <CardContent className="p-6 md:p-8">
         <h3 className="text-xl font-medium text-burgundy mb-6">
-          Отправить сообщение
+          Записаться на онлайн-консультацию
         </h3>
 
         <form className="space-y-4" onSubmit={handleSubmit}>

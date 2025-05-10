@@ -36,6 +36,11 @@ const HeroSection: React.FC = () => {
             <Button
               variant="outline"
               className="border-burgundy text-burgundy hover:bg-burgundy/10 text-lg py-6 px-8"
+              onClick={() =>
+                document
+                  .getElementById("services")
+                  ?.scrollIntoView({ behavior: "smooth" })
+              }
             >
               Узнать программы
             </Button>

@@ -56,10 +56,16 @@ const Header: React.FC = () => {
             Курсы
           </a>
           <a
+            href="#literary-club"
+            className="font-medium text-burgundy hover:text-burgundy/80 transition-colors"
+          >
+            Литературный клуб
+          </a>
+          <a
             href="#about"
             className="font-medium text-burgundy hover:text-burgundy/80 transition-colors whitespace-nowrap"
           >
-            Обо мне
+            О наставнике
           </a>
           <a
             href="#contact"
@@ -118,11 +124,18 @@ const Header: React.FC = () => {
             Курсы
           </a>
           <a
+            href="#literary-club"
+            className="text-lg font-medium text-burgundy"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            Литературный клуб
+          </a>
+          <a
             href="#about"
             className="text-lg font-medium text-burgundy whitespace-nowrap"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Обо мне
+            О наставнике
           </a>
           <a
             href="#contact"

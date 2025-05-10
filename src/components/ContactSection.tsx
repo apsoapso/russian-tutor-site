@@ -15,7 +15,7 @@ const ContactSection: React.FC = () => {
       </div>
 
       <div className="container">
-        <h2 className="section-title">Связаться со мной</h2>
+        <h2 className="section-title">Связаться с наставником</h2>
         <p className="section-subtitle">
           Есть вопросы или готовы начать обучение? Свяжитесь со мной любым
           удобным способом
