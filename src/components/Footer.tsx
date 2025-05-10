@@ -145,13 +145,7 @@ const Footer: React.FC = () => {
           {/* Contact */}
           <div>
             <h4 className="text-lg font-medium mb-4">Контакты</h4>
-            <ul className="space-y-3">
-              <li className="flex gap-3 items-start">
-                <Icon name="MapPin" className="h-5 w-5 text-gold" />
-                <span className="text-black/80">
-                  г. Москва, ул. Примерная, д. 123
-                </span>
-              </li>
+          
               <li className="flex gap-3 items-start">
                 <Icon name="Mail" className="h-5 w-5 text-gold" />
                 <a
