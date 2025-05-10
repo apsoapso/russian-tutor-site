@@ -51,7 +51,7 @@ const Header: React.FC = () => {
           </a>
           <a
             href="#about"
-            className="font-medium text-burgundy hover:text-burgundy/80 transition-colors"
+            className="font-medium text-burgundy hover:text-burgundy/80 transition-colors text-center"
           >
             Обо мне
           </a>
