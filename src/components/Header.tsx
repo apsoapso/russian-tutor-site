@@ -29,7 +29,7 @@ const Header: React.FC = () => {
         {/* Logo */}
         <a href="#" className="flex items-center">
           <img
-            src="https://cdn.poehali.dev/files/1364d00a-c47b-46df-b14e-80820aaf1d96.png"
+            src="https://cdn.poehali.dev/files/63e2aaee-6ae7-4ca9-88a7-1ffaa8f8182f.png"
             alt="Стезя Познания"
             className="h-12 md:h-14"
           />
