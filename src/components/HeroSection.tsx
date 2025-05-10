@@ -22,7 +22,7 @@ const HeroSection: React.FC = () => {
         {/* Text Content */}
         <div className="flex flex-col space-y-6 animate-fade-in">
           <h1 className="text-4xl md:text-5xl xl:text-6xl font-serif font-bold leading-tight text-burgundy">
-            Любовью к русскому языку и русской культуре объединенные
+            Любовью к русской культуре объединённые!
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-lg">
             Индивидуальные занятия с профессиональным репетитором. Подготовка к
@@ -48,7 +48,7 @@ const HeroSection: React.FC = () => {
                   className="h-5 w-5 text-gold"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke="currentColor"
+                  stroke="#CF9C17"
                 >
                   <path
                     strokeLinecap="round"
@@ -67,7 +67,7 @@ const HeroSection: React.FC = () => {
                   className="h-5 w-5 text-gold"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke="currentColor"
+                  stroke="#CF9C17"
                 >
                   <path
                     strokeLinecap="round"
@@ -80,13 +80,13 @@ const HeroSection: React.FC = () => {
               <span className="text-sm font-medium">Высокие результаты</span>
             </div>
             <div className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-full bg-burgundy/20 flex items-center justify-center">
+              <div className="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5 text-burgundy"
+                  className="h-5 w-5 text-gold"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke="currentColor"
+                  stroke="#CF9C17"
                 >
                   <path
                     strokeLinecap="round"
@@ -107,8 +107,8 @@ const HeroSection: React.FC = () => {
             <div className="absolute top-4 left-4 w-full h-full bg-gold/20 rounded-2xl -z-10"></div>
             <div className="w-full aspect-[4/3] bg-white rounded-2xl overflow-hidden shadow-lg">
               <img
-                src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&q=80"
-                alt="Чтение книги"
+                src="https://cdn.poehali.dev/files/22319658-3894-4b9d-a457-09cf7fde027f.jpg"
+                alt="Книги о русской культуре и литературе"
                 className="w-full h-full object-cover"
               />
             </div>

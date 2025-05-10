@@ -62,18 +62,18 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a
-                  href="#about"
+                  href="#courses"
                   className="text-black/80 hover:text-black transition-colors"
                 >
-                  Обо мне
+                  Курсы
                 </a>
               </li>
               <li>
                 <a
-                  href="#testimonials"
+                  href="#about"
                   className="text-black/80 hover:text-black transition-colors"
                 >
-                  Отзывы
+                  Обо мне
                 </a>
               </li>
               <li>
