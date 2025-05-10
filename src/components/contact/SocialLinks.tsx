@@ -1,4 +1,3 @@
-
 import React from "react";
 import Icon from "@/components/ui/icon";
 
@@ -7,7 +6,7 @@ const SocialLinks: React.FC = () => {
   const socialLinks = [
     {
       name: "Вконтакте",
-      icon: "MessageCircleMore",
+      icon: "Github", // используем Github как визуальный заменитель иконки ВКонтакте
       url: "https://vk.com/stezyapoznaniya?from=groups",
     },
     {

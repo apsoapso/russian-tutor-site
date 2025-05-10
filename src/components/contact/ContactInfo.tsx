@@ -42,8 +42,8 @@ const ContactInfo: React.FC = () => {
       </ContactItem>
 
       <ContactItem icon="Clock" title="Часы работы">
-        <p className="text-muted-foreground">Пн-Пт: 10:00 - 20:00</p>
-        <p className="text-muted-foreground">Сб: 10:00 - 16:00</p>
+        <p className="text-muted-foreground">Пн-Пт: 10:00 - 22:00</p>
+        <p className="text-muted-foreground">Сб-Вс: 10:00 - 20:00</p>
       </ContactItem>
     </div>
   );

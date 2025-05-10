@@ -7,9 +7,9 @@ import AboutSection from "@/components/AboutSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import LiteraryClubSection from "@/components/LiteraryClubSection";
 
 const Index = () => {
-  // Animation scroll observer
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -36,6 +36,7 @@ const Index = () => {
       <HeroSection />
       <ServicesSection />
       <CoursesSection />
+      <LiteraryClubSection />
       <TestimonialsSection />
       <AboutSection />
       <ContactSection />
