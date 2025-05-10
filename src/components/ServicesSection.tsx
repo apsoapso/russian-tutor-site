@@ -114,7 +114,7 @@ const ServicesSection: React.FC = () => {
   return (
     <section id="services" className="section bg-cream py-20">
       <div className="container">
-        <h2 className="section-title">Мои услуги</h2>
+        <h2 className="section-title">Наши направления</h2>
         <p className="section-subtitle">
           Предлагаю различные форматы занятий, адаптированные под ваши цели и
           уровень подготовки

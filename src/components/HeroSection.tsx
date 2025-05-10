@@ -12,14 +12,12 @@ const HeroSection: React.FC = () => {
           "linear-gradient(to bottom, rgba(230, 216, 201, 0.9), rgba(230, 216, 201, 0.95))",
       }}
     >
-      {/* Decorative elements */}
       <div className="absolute inset-0 overflow-hidden -z-10">
         <div className="absolute top-20 -right-20 w-96 h-96 rounded-full bg-gold/10 blur-3xl"></div>
         <div className="absolute bottom-20 -left-20 w-80 h-80 rounded-full bg-burgundy/10 blur-3xl"></div>
       </div>
 
       <div className="container grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-        {/* Text Content */}
         <div className="flex flex-col space-y-6 animate-fade-in">
           <h1 className="text-4xl md:text-5xl xl:text-6xl font-serif font-bold leading-tight text-burgundy">
             Любовью
@@ -29,8 +27,8 @@ const HeroSection: React.FC = () => {
             объединённые!
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-lg">
-            Индивидуальные занятия с профессиональным репетитором. Подготовка к
-            ЕГЭ и ОГЭ, повышение грамотности и развитие речи для учеников любого
+            Индивидуальные и групповые занятия с наставником. Подготовка к ЕГЭ и
+            ОГЭ, повышение грамотности и развитие речи для учеников любого
             уровня.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -110,7 +108,6 @@ const HeroSection: React.FC = () => {
           </div>
         </div>
 
-        {/* Image Area */}
         <div className="relative h-full flex items-center justify-center pt-8 md:pt-0">
           <div className="relative w-full max-w-md mx-auto">
             <div className="absolute top-4 left-4 w-full h-full bg-gold/20 rounded-2xl -z-10"></div>
@@ -125,7 +122,6 @@ const HeroSection: React.FC = () => {
         </div>
       </div>
 
-      {/* Scroll indicator */}
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center">
         <span className="text-sm font-medium text-muted-foreground mb-2">
           Прокрутите вниз

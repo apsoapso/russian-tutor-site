@@ -26,8 +26,7 @@ const LiteraryClubSection: React.FC = () => {
         <h2 className="section-title">Литературный клуб</h2>
         <p className="section-subtitle">
           Присоединяйтесь к нашему литературному сообществу, где мы вместе
-          читаем, обсуждаем и анализируем произведения русской и мировой
-          литературы
+          читаем, обсуждаем и анализируем произведения русской литературы
         </p>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-12">
