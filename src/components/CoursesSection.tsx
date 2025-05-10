@@ -1,6 +1,11 @@
-
 import React from "react";
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import Icon from "@/components/ui/icon";
@@ -14,13 +19,13 @@ interface CourseProps {
   level?: string;
 }
 
-const CourseCard: React.FC<CourseProps> = ({ 
-  title, 
-  description, 
-  image, 
-  tags, 
-  duration = "8 занятий", 
-  level = "Средний" 
+const CourseCard: React.FC<CourseProps> = ({
+  title,
+  description,
+  image,
+  tags,
+  duration = "8 занятий",
+  level = "Средний",
 }) => {
   return (
     <Card className="h-full flex flex-col overflow-hidden transition-all duration-300 hover:shadow-lg border-gold/20 hover:border-gold/50 bg-white/90">
@@ -35,10 +40,10 @@ const CourseCard: React.FC<CourseProps> = ({
         <CardTitle className="text-xl font-serif">{title}</CardTitle>
         <div className="flex flex-wrap gap-2 mt-2">
           {tags.map((tag, index) => (
-            <Badge 
-              key={index} 
-              variant={tag.includes("Литература") ? "default" : "secondary"}
-              className={tag.includes("Литература") ? "bg-burgundy/90" : "bg-gold"}
+            <Badge
+              key={index}
+              variant={tag === "Литература" ? "default" : "secondary"}
+              className={tag === "Литература" ? "bg-burgundy/90" : "bg-gold"}
             >
               {tag}
             </Badge>
@@ -47,7 +52,7 @@ const CourseCard: React.FC<CourseProps> = ({
       </CardHeader>
       <CardContent className="text-muted-foreground flex-grow">
         <p>{description}</p>
-        
+
         <div className="flex items-center gap-6 mt-4">
           <div className="flex items-center gap-2">
             <Icon name="Clock" className="h-4 w-4 text-gold" />
@@ -72,52 +77,74 @@ const CoursesSection: React.FC = () => {
   const courses = [
     {
       title: "А.С. Пушкин «Капитанская дочка»",
-      description: "Глубокий разбор знаменитого произведения русской литературы. Изучение исторического контекста, анализ характеров героев и художественных приемов автора.",
-      image: "https://images.unsplash.com/photo-1580082959156-71b683927af9?q=80&w=1000",
+      description:
+        "Глубокий разбор знаменитого произведения русской литературы. Изучение исторического контекста, анализ характеров героев и художественных приемов автора.",
+      image:
+        "https://cdn.poehali.dev/files/32f907ae-2572-4e70-87c2-32a6d39b3558.jfif",
       tags: ["Школьная программа", "Литература"],
       duration: "6 занятий",
-      level: "Средний"
+      level: "Средний",
     },
     {
       title: "Формирование красивого почерка",
-      description: "Практический курс по развитию красивого, четкого и разборчивого почерка. Мы работаем над постановкой руки, темпом письма и эстетикой оформления текста.",
-      image: "https://images.unsplash.com/photo-1531346624244-6a0f23730fb6?q=80&w=1000",
+      description:
+        "Практический курс по развитию красивого, четкого и разборчивого почерка. Мы работаем над постановкой руки, темпом письма и эстетикой оформления текста.",
+      image:
+        "https://cdn.poehali.dev/files/e76baf78-b4f8-4379-b644-d5bbb75d9746.jpg",
       tags: ["Школьная программа", "Русский язык"],
       duration: "10 занятий",
-      level: "Начальный"
+      level: "Начальный",
     },
     {
       title: "Работа с поэтическим текстом",
-      description: "Углубленный курс по анализу поэтических произведений. Изучение ритма, рифмы, художественных средств и приемов, используемых в поэзии.",
-      image: "https://images.unsplash.com/photo-1525972292986-69295aebf4cc?q=80&w=1000",
+      description:
+        "Углубленный курс по анализу поэтических произведений. Изучение ритма, рифмы, художественных средств и приемов, используемых в поэзии.",
+      image:
+        "https://images.unsplash.com/photo-1525972292986-69295aebf4cc?q=80&w=1000",
       tags: ["Олимпиады", "Литература"],
       duration: "8 занятий",
-      level: "Продвинутый"
-    }
+      level: "Продвинутый",
+    },
+    {
+      title: "Работа с прозаическим текстом",
+      description:
+        "Углубленное изучение техник анализа прозаических произведений. Исследование композиции, системы образов, художественного пространства и времени в тексте.",
+      image:
+        "https://images.unsplash.com/photo-1580082959156-71b683927af9?q=80&w=1000",
+      tags: ["Олимпиады", "Литература"],
+      duration: "8 занятий",
+      level: "Продвинутый",
+    },
   ];
 
   return (
-    <section id="courses" className="section bg-cream/50 py-20 relative overflow-hidden">
-      {/* Decorative elements */}
+    <section
+      id="courses"
+      className="section bg-cream/50 py-20 relative overflow-hidden"
+    >
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-20 -left-20 w-96 h-96 rounded-full bg-gold/5 blur-3xl"></div>
         <div className="absolute bottom-20 -right-20 w-80 h-80 rounded-full bg-burgundy/5 blur-3xl"></div>
       </div>
-      
+
       <div className="container">
         <h2 className="section-title">Курсы</h2>
         <p className="section-subtitle">
-          Специально разработанные образовательные программы для глубокого изучения русского языка и литературы
+          Специально разработанные образовательные программы для глубокого
+          изучения русского языка и литературы
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mt-12">
           {courses.map((course, index) => (
             <CourseCard key={index} {...course} />
           ))}
         </div>
 
         <div className="mt-16 text-center">
-          <p className="mb-6 text-lg">Интересует индивидуальная программа? Свяжитесь со мной для обсуждения.</p>
+          <p className="mb-6 text-lg">
+            Интересует индивидуальная программа? Свяжитесь со мной для
+            обсуждения.
+          </p>
           <Button className="bg-burgundy text-cream hover:bg-burgundy/90 text-lg py-6 px-8">
             Все курсы
           </Button>
