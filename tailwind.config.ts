@@ -1,6 +1,11 @@
-import { fontFamily } from "tailwindcss/defaultTheme";
 
-/** @type {import('tailwindcss').Config} */
+import { fileURLToPath } from "url";
+import { dirname, resolve } from "path";
+import { type Config } from "tailwindcss";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
 export default {
   darkMode: ["class"],
   content: [
@@ -9,6 +14,7 @@ export default {
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
   ],
+  prefix: "",
   theme: {
     container: {
       center: true,
@@ -25,7 +31,7 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         cream: "#E6D8C9",
-        burgundy: "#791919", // оставляем для обратной совместимости
+        burgundy: "#791919",
         gold: "#CF9C17",
         primary: {
           DEFAULT: "hsl(var(--primary))",
@@ -62,17 +68,17 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        sans: ["Raleway", ...fontFamily.sans],
-        serif: ["Playfair Display", ...fontFamily.serif],
+        sans: ["Raleway", "sans-serif"],
+        serif: ["Playfair Display", "serif"],
       },
       keyframes: {
         "accordion-down": {
-          from: { height: 0 },
+          from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
           from: { height: "var(--radix-accordion-content-height)" },
-          to: { height: 0 },
+          to: { height: "0" },
         },
       },
       animation: {
@@ -81,5 +87,5 @@ export default {
       },
     },
   },
-  plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
-};
+  plugins: [require("tailwindcss-animate")],
+} satisfies Config;

@@ -15,7 +15,7 @@
     --popover: 39 38% 97%;
     --popover-foreground: 0 0% 10%;
 
-    --primary: 43 80% 45%;
+    --primary: 0 50% 29%; /* burgundy #791919 */
     --primary-foreground: 39 38% 95%;
 
     --secondary: 43 80% 45%;
@@ -32,7 +32,7 @@
 
     --border: 39 38% 80%;
     --input: 39 38% 80%;
-    --ring: 43 80% 45%;
+    --ring: 0 50% 29%; /* burgundy for focus rings */
 
     --radius: 0.5rem;
   }

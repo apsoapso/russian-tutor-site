@@ -48,7 +48,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
         </ul>
       </CardContent>
       <CardFooter>
-        <Button className="w-full bg-gold text-black hover:bg-gold/90">
+        <Button className="w-full bg-burgundy text-cream hover:bg-burgundy/90">
           {cta}
         </Button>
       </CardFooter>
