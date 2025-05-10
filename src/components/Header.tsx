@@ -70,7 +70,7 @@ const Header: React.FC = () => {
         </nav>
 
         {/* CTA Button */}
-        <Button className="hidden md:flex bg-gold text-black hover:bg-gold/90">
+        <Button className="hidden md:flex bg-burgundy text-cream hover:bg-burgundy/90">
           Записаться на урок
         </Button>
 
@@ -81,7 +81,7 @@ const Header: React.FC = () => {
         >
           <Icon
             name={isMobileMenuOpen ? "X" : "Menu"}
-            className="h-6 w-6 text-gold"
+            className="h-6 w-6 text-burgundy"
           />
         </button>
       </div>

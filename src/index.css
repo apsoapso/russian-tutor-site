@@ -103,11 +103,11 @@
   }
 
   .btn-primary {
-    @apply bg-gold text-black hover:bg-gold/90;
+    @apply bg-burgundy text-cream hover:bg-burgundy/90;
   }
 
   .btn-secondary {
-    @apply bg-gold text-black hover:bg-gold/90;
+    @apply bg-burgundy text-cream hover:bg-burgundy/90;
   }
 
   .btn-outline {
