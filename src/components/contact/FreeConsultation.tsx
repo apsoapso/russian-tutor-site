@@ -12,7 +12,14 @@ const FreeConsultation: React.FC = () => {
         Запишитесь на бесплатную 30-минутную консультацию, чтобы обсудить ваши
         цели и определить оптимальную программу обучения.
       </p>
-      <Button className="w-full bg-burgundy text-cream hover:bg-burgundy/90">
+      <Button
+        className="w-full bg-burgundy text-cream hover:bg-burgundy/90"
+        onClick={() =>
+          document
+            .getElementById("contact")
+            ?.scrollIntoView({ behavior: "smooth" })
+        }
+      >
         Записаться на консультацию
       </Button>
     </div>

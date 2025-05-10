@@ -22,7 +22,11 @@ const HeroSection: React.FC = () => {
         {/* Text Content */}
         <div className="flex flex-col space-y-6 animate-fade-in">
           <h1 className="text-4xl md:text-5xl xl:text-6xl font-serif font-bold leading-tight text-burgundy">
-            Любовью к русской культуре объединённые!
+            Любовью
+            <br />
+            к русской культуре
+            <br />
+            объединённые!
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-lg">
             Индивидуальные занятия с профессиональным репетитором. Подготовка к

@@ -34,12 +34,12 @@ const LiteraryClubSection: React.FC = () => {
           {/* Изображение */}
           <div className="relative h-full flex items-center justify-center">
             <div className="relative w-full max-w-md mx-auto">
-              <div className="absolute top-4 left-4 w-full h-full bg-gold/20 rounded-2xl -z-10"></div>
+              <div className="absolute top-4 left-4 w-full h-full bg-burgundy/20 rounded-2xl -z-10"></div>
               <div className="w-full aspect-[4/3] bg-[#EEC414] rounded-2xl overflow-hidden shadow-lg">
                 <img
                   src="https://cdn.poehali.dev/files/b3f3a83b-e2d1-4738-84d5-f3fc59fd5c81.jpg"
                   alt="Литературный клуб"
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </div>

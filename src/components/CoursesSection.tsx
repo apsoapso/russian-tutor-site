@@ -65,7 +65,14 @@ const CourseCard: React.FC<CourseProps> = ({
         </div>
       </CardContent>
       <CardFooter>
-        <Button className="w-full bg-burgundy text-cream hover:bg-burgundy/90">
+        <Button
+          className="w-full bg-burgundy text-cream hover:bg-burgundy/90"
+          onClick={() =>
+            document
+              .getElementById("contact")
+              ?.scrollIntoView({ behavior: "smooth" })
+          }
+        >
           Записаться на курс
         </Button>
       </CardFooter>

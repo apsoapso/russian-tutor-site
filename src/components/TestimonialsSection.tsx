@@ -56,10 +56,6 @@ const TestimonialsSection: React.FC = () => {
         <div className="mt-12 relative">
           {/* Large testimonial card */}
           <div className="relative mx-auto max-w-4xl">
-            <div className="absolute -top-4 -left-4 w-12 h-12 bg-gold rounded-full flex items-center justify-center text-white">
-              <Icon name="Quote" className="h-6 w-6" />
-            </div>
-
             <Card className="border-gold/20 bg-white/80 backdrop-blur p-8 md:p-10">
               <CardContent className="px-0 pt-0">
                 <p className="text-lg md:text-xl font-medium italic mb-8">
