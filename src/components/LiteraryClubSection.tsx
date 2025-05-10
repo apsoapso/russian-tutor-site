@@ -26,7 +26,7 @@ const LiteraryClubSection: React.FC = () => {
               <div className="absolute top-4 left-4 w-full h-full bg-gold/20 rounded-2xl -z-10"></div>
               <div className="w-full aspect-[4/3] bg-white rounded-2xl overflow-hidden shadow-lg">
                 <img
-                  src="https://cdn.poehali.dev/files/5260689082349122321"
+                  src="https://cdn.poehali.dev/files/608ef03b-769f-4d50-a6c6-cfaf959d6fc0.jpg"
                   alt="Литературный клуб"
                   className="w-full h-full object-cover"
                 />
@@ -37,55 +37,92 @@ const LiteraryClubSection: React.FC = () => {
           {/* Текстовая информация */}
           <div className="space-y-6">
             <h3 className="text-3xl font-serif text-burgundy">
-              Пространство для любителей литературы
+              Кому подходят встречи Литературного Клуба?
             </h3>
 
-            <p className="text-lg text-muted-foreground">
-              Литературный клуб «Стезя познания» — это место, где встречаются увлеченные 
-              литературой люди для обсуждения произведений русских и зарубежных авторов, 
-              обмена мнениями и погружения в мир художественного слова.
-            </p>
-
-            <div className="space-y-4">
+            <div className="space-y-4 bg-gold/10 p-6 rounded-xl">
               <div className="flex items-start gap-3">
-                <div className="w-10 h-10 rounded-full bg-gold/10 flex items-center justify-center mt-1">
-                  <Icon name="CalendarDays" className="h-5 w-5 text-gold" />
-                </div>
-                <div>
-                  <h4 className="font-medium text-lg">Регулярные встречи</h4>
-                  <p className="text-muted-foreground">
-                    Еженедельные встречи в дружеской атмосфере с чаем и увлекательными дискуссиями
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-3">
-                <div className="w-10 h-10 rounded-full bg-gold/10 flex items-center justify-center mt-1">
+                <div className="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center mt-1">
                   <Icon name="BookOpen" className="h-5 w-5 text-gold" />
                 </div>
                 <div>
-                  <h4 className="font-medium text-lg">Разнообразная программа</h4>
                   <p className="text-muted-foreground">
-                    Классическая литература, современная проза, поэзия и специальные 
-                    тематические встречи
+                    Тем, кто <span className="font-medium text-burgundy">любит</span> или хочет полюбить <span className="font-medium text-burgundy">русскую литературу</span>
                   </p>
                 </div>
               </div>
 
               <div className="flex items-start gap-3">
-                <div className="w-10 h-10 rounded-full bg-gold/10 flex items-center justify-center mt-1">
+                <div className="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center mt-1">
+                  <Icon name="Eye" className="h-5 w-5 text-gold" />
+                </div>
+                <div>
+                  <p className="text-muted-foreground">
+                    Тем, кто хочет научиться <span className="font-medium text-burgundy">видеть тексты по-новому</span>
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <div className="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center mt-1">
+                  <Icon name="MessageSquare" className="h-5 w-5 text-gold" />
+                </div>
+                <div>
+                  <p className="text-muted-foreground">
+                    Тем, кто хочет обогатить свою устную и письменную <span className="font-medium text-burgundy">речь</span>
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <div className="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center mt-1">
                   <Icon name="Users" className="h-5 w-5 text-gold" />
                 </div>
                 <div>
-                  <h4 className="font-medium text-lg">Для всех возрастов</h4>
                   <p className="text-muted-foreground">
-                    Подростковая группа (12-16 лет) и взрослая группа (от 16 лет и старше)
+                    Тем, кто ищет <span className="font-medium text-burgundy">друзей</span> и единомышленников для занимательной беседы и интересного досуга
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <div className="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center mt-1">
+                  <Icon name="Brain" className="h-5 w-5 text-gold" />
+                </div>
+                <div>
+                  <p className="text-muted-foreground">
+                    Тем, кто хочет духовного и интеллектуального <span className="font-medium text-burgundy">развития</span>
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <div className="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center mt-1">
+                  <Icon name="GraduationCap" className="h-5 w-5 text-gold" />
+                </div>
+                <div>
+                  <p className="text-muted-foreground">
+                    <span className="font-medium text-burgundy">Олимпиадникам и выпускникам 9-11 классов</span>, которые готовятся к конкурсным и экзаменационным испытаниям по русскому языку и литературе
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <div className="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center mt-1">
+                  <Icon name="Mic" className="h-5 w-5 text-gold" />
+                </div>
+                <div>
+                  <p className="text-muted-foreground">
+                    Тем, <span className="font-medium text-burgundy">кому есть что сказать</span>, и тем, <span className="font-medium text-burgundy">кто хочет быть услышанным</span>
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="pt-4">
+            <div className="flex flex-wrap items-center gap-6 mt-4">
+              <div className="bg-gold/20 px-4 py-2 rounded-lg">
+                <p className="font-medium text-burgundy">Возраст участников: <span className="font-bold text-xl">11+</span></p>
+              </div>
               <Button className="bg-burgundy text-cream hover:bg-burgundy/90">
                 Присоединиться к клубу
               </Button>

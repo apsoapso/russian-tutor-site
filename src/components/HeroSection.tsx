@@ -107,7 +107,7 @@ const HeroSection: React.FC = () => {
             <div className="absolute top-4 left-4 w-full h-full bg-gold/20 rounded-2xl -z-10"></div>
             <div className="w-full aspect-[4/3] bg-white rounded-2xl overflow-hidden shadow-lg">
               <img
-                src="https://cdn.poehali.dev/files/5260689082349122322"
+                src="https://cdn.poehali.dev/files/31074c49-ada9-4bac-b216-3ec906a161e0.jpg"
                 alt="Книги о русской культуре и литературе"
                 className="w-full h-full object-cover"
               />
