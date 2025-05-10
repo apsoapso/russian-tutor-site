@@ -145,9 +145,9 @@ const Footer: React.FC = () => {
           {/* Contact */}
           <div>
             <h4 className="text-lg font-medium mb-4">Контакты</h4>
-          
+            <ul className="space-y-2">
               <li className="flex gap-3 items-start">
-                <Icon name="Mail" className="h-5 w-5 text-gold" />
+                <Icon name="Mail" className="h-5 w-5 text-black/80" />
                 <a
                   href="mailto:abashkina_aa@mail.ru"
                   className="text-black/80 hover:text-black transition-colors"
@@ -156,7 +156,7 @@ const Footer: React.FC = () => {
                 </a>
               </li>
               <li className="flex gap-3 items-start">
-                <Icon name="Phone" className="h-5 w-5 text-gold" />
+                <Icon name="Phone" className="h-5 w-5 text-black/80" />
                 <a
                   href="tel:+79296815742"
                   className="text-black/80 hover:text-black transition-colors"
