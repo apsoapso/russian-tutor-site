@@ -52,11 +52,8 @@ const AboutSection: React.FC = () => {
 
             <div className="space-y-4">
               <div className="flex items-start gap-3">
-                <div className="w-10 h-10 rounded-full bg-burgundy/10 flex items-center justify-center mt-1">
-                  <Icon
-                    name="GraduationCap"
-                    className="h-5 w-5 text-burgundy"
-                  />
+                <div className="w-10 h-10 rounded-full bg-gold/10 flex items-center justify-center mt-1">
+                  <Icon name="GraduationCap" className="h-5 w-5 text-gold" />
                 </div>
                 <div>
                   <h4 className="font-medium text-lg">Образование</h4>
@@ -68,8 +65,8 @@ const AboutSection: React.FC = () => {
               </div>
 
               <div className="flex items-start gap-3">
-                <div className="w-10 h-10 rounded-full bg-burgundy/10 flex items-center justify-center mt-1">
-                  <Icon name="Trophy" className="h-5 w-5 text-burgundy" />
+                <div className="w-10 h-10 rounded-full bg-gold/10 flex items-center justify-center mt-1">
+                  <Icon name="Trophy" className="h-5 w-5 text-gold" />
                 </div>
                 <div>
                   <h4 className="font-medium text-lg">Достижения</h4>
@@ -82,8 +79,8 @@ const AboutSection: React.FC = () => {
               </div>
 
               <div className="flex items-start gap-3">
-                <div className="w-10 h-10 rounded-full bg-burgundy/10 flex items-center justify-center mt-1">
-                  <Icon name="BookOpen" className="h-5 w-5 text-burgundy" />
+                <div className="w-10 h-10 rounded-full bg-gold/10 flex items-center justify-center mt-1">
+                  <Icon name="BookOpen" className="h-5 w-5 text-gold" />
                 </div>
                 <div>
                   <h4 className="font-medium text-lg">Подход к обучению</h4>

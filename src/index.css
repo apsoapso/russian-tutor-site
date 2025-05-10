@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -16,16 +15,16 @@
     --popover: 39 38% 97%;
     --popover-foreground: 0 0% 10%;
 
-    --primary: 0 65% 29%;
+    --primary: 43 80% 45%;
     --primary-foreground: 39 38% 95%;
 
-    --secondary: 45 80% 45%;
+    --secondary: 43 80% 45%;
     --secondary-foreground: 0 0% 10%;
 
     --muted: 39 38% 90%;
     --muted-foreground: 0 0% 40%;
 
-    --accent: 45 80% 45%;
+    --accent: 43 80% 45%;
     --accent-foreground: 0 0% 10%;
 
     --destructive: 0 84.2% 60.2%;
@@ -33,7 +32,7 @@
 
     --border: 39 38% 80%;
     --input: 39 38% 80%;
-    --ring: 0 65% 29%;
+    --ring: 43 80% 45%;
 
     --radius: 0.5rem;
   }
@@ -48,16 +47,16 @@
     --popover: 0 0% 13%;
     --popover-foreground: 39 38% 95%;
 
-    --primary: 0 65% 40%;
+    --primary: 43 80% 40%;
     --primary-foreground: 39 38% 95%;
 
-    --secondary: 45 80% 35%;
+    --secondary: 43 80% 35%;
     --secondary-foreground: 39 38% 95%;
 
     --muted: 0 0% 20%;
     --muted-foreground: 39 38% 70%;
 
-    --accent: 45 80% 35%;
+    --accent: 43 80% 35%;
     --accent-foreground: 39 38% 95%;
 
     --destructive: 0 62.8% 30.6%;
@@ -65,7 +64,7 @@
 
     --border: 0 0% 30%;
     --input: 0 0% 30%;
-    --ring: 45 80% 45%;
+    --ring: 43 80% 45%;
   }
 }
 
@@ -73,51 +72,56 @@
   * {
     @apply border-border;
   }
-  
+
   body {
     @apply bg-cream text-foreground font-sans;
   }
-  
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-serif font-bold text-burgundy;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif font-bold text-gold;
   }
-  
+
   .animate-on-scroll {
     @apply opacity-0 transition-all duration-500 ease-in-out;
   }
-  
+
   .animate-on-scroll.active {
     @apply opacity-100;
   }
-  
+
   .container {
     @apply px-4 md:px-6 lg:px-8 max-w-7xl mx-auto;
   }
-  
+
   .btn {
     @apply inline-flex items-center justify-center rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background;
   }
-  
+
   .btn-primary {
-    @apply bg-burgundy text-cream hover:bg-burgundy/90;
+    @apply bg-gold text-black hover:bg-gold/90;
   }
-  
+
   .btn-secondary {
     @apply bg-gold text-black hover:bg-gold/90;
   }
-  
+
   .btn-outline {
-    @apply border border-burgundy text-burgundy hover:bg-burgundy/10;
+    @apply border border-gold text-gold hover:bg-gold/10;
   }
-  
+
   .section {
     @apply py-16 md:py-24;
   }
-  
+
   .section-title {
     @apply text-3xl md:text-4xl lg:text-5xl mb-6 md:mb-10 font-serif text-center;
   }
-  
+
   .section-subtitle {
     @apply text-lg md:text-xl mb-8 md:mb-12 text-center max-w-3xl mx-auto text-muted-foreground;
   }

@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -119,8 +118,8 @@ interface ContactItemProps {
 const ContactItem: React.FC<ContactItemProps> = ({ icon, title, children }) => {
   return (
     <div className="flex items-start gap-4">
-      <div className="w-10 h-10 rounded-full bg-burgundy/10 flex items-center justify-center mt-1">
-        <Icon name={icon} className="h-5 w-5 text-burgundy" />
+      <div className="w-10 h-10 rounded-full bg-gold/10 flex items-center justify-center mt-1">
+        <Icon name={icon} className="h-5 w-5 text-gold" />
       </div>
       <div>
         <p className="font-medium">{title}</p>
@@ -176,8 +175,8 @@ const FreeConsultation: React.FC = () => {
         Бесплатная консультация
       </h3>
       <p className="text-muted-foreground mb-4">
-        Запишитесь на бесплатную 30-минутную консультацию, чтобы
-        обсудить ваши цели и определить оптимальную программу обучения.
+        Запишитесь на бесплатную 30-минутную консультацию, чтобы обсудить ваши
+        цели и определить оптимальную программу обучения.
       </p>
       <Button className="w-full bg-gold text-black hover:bg-gold/90">
         Записаться на консультацию
@@ -200,18 +199,13 @@ const ContactInfo: React.FC = () => {
       </ContactItem>
 
       <ContactItem icon="Phone" title="Телефон">
-        <a
-          href="tel:+79296815742"
-          className="text-burgundy hover:underline"
-        >
+        <a href="tel:+79296815742" className="text-burgundy hover:underline">
           +7(929)681-57-42
         </a>
       </ContactItem>
 
       <ContactItem icon="Clock" title="Часы работы">
-        <p className="text-muted-foreground">
-          Пн-Пт: 10:00 - 20:00
-        </p>
+        <p className="text-muted-foreground">Пн-Пт: 10:00 - 20:00</p>
         <p className="text-muted-foreground">Сб: 10:00 - 16:00</p>
       </ContactItem>
     </div>
@@ -245,7 +239,7 @@ const ContactSection: React.FC = () => {
               <h3 className="text-xl font-medium text-burgundy">
                 Контактная информация
               </h3>
-              
+
               <ContactInfo />
             </div>
 

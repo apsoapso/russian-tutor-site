@@ -39,38 +39,38 @@ const Header: React.FC = () => {
         <nav className="hidden md:flex items-center space-x-8">
           <a
             href="#home"
-            className="font-medium text-burgundy hover:text-burgundy/80 transition-colors"
+            className="font-medium text-gold hover:text-gold/80 transition-colors"
           >
             Главная
           </a>
           <a
             href="#services"
-            className="font-medium text-burgundy hover:text-burgundy/80 transition-colors"
+            className="font-medium text-gold hover:text-gold/80 transition-colors"
           >
             Услуги
           </a>
           <a
             href="#about"
-            className="font-medium text-burgundy hover:text-burgundy/80 transition-colors"
+            className="font-medium text-gold hover:text-gold/80 transition-colors"
           >
             Обо мне
           </a>
           <a
             href="#testimonials"
-            className="font-medium text-burgundy hover:text-burgundy/80 transition-colors"
+            className="font-medium text-gold hover:text-gold/80 transition-colors"
           >
             Отзывы
           </a>
           <a
             href="#contact"
-            className="font-medium text-burgundy hover:text-burgundy/80 transition-colors"
+            className="font-medium text-gold hover:text-gold/80 transition-colors"
           >
             Контакты
           </a>
         </nav>
 
         {/* CTA Button */}
-        <Button className="hidden md:flex bg-burgundy text-cream hover:bg-burgundy/90">
+        <Button className="hidden md:flex bg-gold text-black hover:bg-gold/90">
           Записаться на урок
         </Button>
 
@@ -81,7 +81,7 @@ const Header: React.FC = () => {
         >
           <Icon
             name={isMobileMenuOpen ? "X" : "Menu"}
-            className="h-6 w-6 text-burgundy"
+            className="h-6 w-6 text-gold"
           />
         </button>
       </div>

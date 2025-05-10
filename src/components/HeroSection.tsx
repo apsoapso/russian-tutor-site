@@ -42,10 +42,10 @@ const HeroSection: React.FC = () => {
           </div>
           <div className="flex items-center gap-6 mt-8 flex-wrap">
             <div className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-full bg-burgundy/20 flex items-center justify-center">
+              <div className="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5 text-burgundy"
+                  className="h-5 w-5 text-gold"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -61,10 +61,10 @@ const HeroSection: React.FC = () => {
               <span className="text-sm font-medium">5+ лет опыта</span>
             </div>
             <div className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-full bg-burgundy/20 flex items-center justify-center">
+              <div className="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5 text-burgundy"
+                  className="h-5 w-5 text-gold"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
