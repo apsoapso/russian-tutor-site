@@ -117,26 +117,6 @@ const TestimonialsSection: React.FC = () => {
             ))}
           </div>
         </div>
-
-        {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16">
-          <div className="bg-white rounded-xl p-6 text-center shadow-sm">
-            <p className="text-3xl font-bold text-burgundy mb-2">100+</p>
-            <p className="text-muted-foreground">Довольных учеников</p>
-          </div>
-          <div className="bg-white rounded-xl p-6 text-center shadow-sm">
-            <p className="text-3xl font-bold text-burgundy mb-2">95%</p>
-            <p className="text-muted-foreground">Сдали на 80+ баллов</p>
-          </div>
-          <div className="bg-white rounded-xl p-6 text-center shadow-sm">
-            <p className="text-3xl font-bold text-burgundy mb-2">5+</p>
-            <p className="text-muted-foreground">Лет опыта</p>
-          </div>
-          <div className="bg-white rounded-xl p-6 text-center shadow-sm">
-            <p className="text-3xl font-bold text-burgundy mb-2">15</p>
-            <p className="text-muted-foreground">Призеров олимпиад</p>
-          </div>
-        </div>
       </div>
     </section>
   );
