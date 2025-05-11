@@ -98,8 +98,7 @@ const LiteraryClubSection: React.FC = () => {
                   <p className="text-muted-foreground">
                     Тем, кто ищет{" "}
                     <span className="font-medium text-burgundy">друзей</span> и
-                    единомышленников для занимательной беседы и интересного
-                    досуга
+                    единомышленников
                   </p>
                 </div>
               </div>
