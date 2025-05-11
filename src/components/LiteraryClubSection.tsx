@@ -16,7 +16,6 @@ const LiteraryClubSection: React.FC = () => {
       id="literary-club"
       className="section py-20 bg-cream/50 relative overflow-hidden"
     >
-      {/* Декоративные элементы фона */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-20 -left-20 w-96 h-96 rounded-full bg-gold/5 blur-3xl"></div>
         <div className="absolute bottom-20 -right-20 w-80 h-80 rounded-full bg-burgundy/5 blur-3xl"></div>
@@ -31,16 +30,14 @@ const LiteraryClubSection: React.FC = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-12">
           {/* Изображение */}
-          <div className="relative h-full flex items-center justify-center">
-            <div className="relative w-full max-w-md mx-auto">
-              <div className="absolute top-4 left-4 w-full h-full bg-burgundy/20 rounded-2xl -z-10"></div>
-              <div className="w-full aspect-[4/3] bg-[#EEC414] rounded-2xl overflow-hidden shadow-lg">
-                <img
-                  src="https://cdn.poehali.dev/files/b3f3a83b-e2d1-4738-84d5-f3fc59fd5c81.jpg"
-                  alt="Литературный клуб"
-                  className="w-full h-full object-cover"
-                />
-              </div>
+          <div className="relative w-full max-w-md mx-auto">
+            <div className="absolute top-4 left-4 w-full h-full bg-burgundy/20 rounded-2xl -z-10"></div>
+            <div className="w-full aspect-[4/3] bg-[#EEC414] rounded-2xl overflow-hidden shadow-lg">
+              <img
+                src="https://cdn.poehali.dev/files/b3f3a83b-e2d1-4738-84d5-f3fc59fd5c81.jpg"
+                alt="Литературный клуб"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
 
