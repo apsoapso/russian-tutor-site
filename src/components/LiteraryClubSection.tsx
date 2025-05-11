@@ -168,18 +168,34 @@ const LiteraryClubSection: React.FC = () => {
             Галерея
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {galleryImages.map((image, index) => (
-              <div
-                key={index}
-                className="overflow-hidden rounded-lg h-64 shadow-md transition-all duration-300 hover:shadow-xl"
-              >
-                <img
-                  src={image}
-                  alt={`Фото ${index + 1}`}
-                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
-                />
-              </div>
-            ))}
+            <div className="overflow-hidden rounded-lg h-64 shadow-md transition-all duration-300 hover:shadow-xl">
+              <img
+                src="https://cdn.poehali.dev/files/eab30d74-3d69-42ca-99f5-2413bd6d12b0.jpg"
+                alt="Фото 1"
+                className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+            <div className="overflow-hidden rounded-lg h-64 shadow-md transition-all duration-300 hover:shadow-xl">
+              <img
+                src="https://cdn.poehali.dev/files/176f8145-0540-4f36-99eb-4e78caff1019.jpg"
+                alt="Фото 2"
+                className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+            <div className="overflow-hidden rounded-lg h-64 shadow-md transition-all duration-300 hover:shadow-xl">
+              <img
+                src="https://cdn.poehali.dev/files/7308dcb5-007e-46bf-be57-1ccf8d88bf11.jpg"
+                alt="Фото 3"
+                className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+            <div className="overflow-hidden rounded-lg h-64 shadow-md transition-all duration-300 hover:shadow-xl">
+              <img
+                src="https://cdn.poehali.dev/files/9533c309-2b29-476b-95d9-2d6c890d61e4.jpg"
+                alt="Фото 4"
+                className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+              />
+            </div>
           </div>
         </div>
       </div>
