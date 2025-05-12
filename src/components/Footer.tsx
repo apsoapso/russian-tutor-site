@@ -77,6 +77,14 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a
+                  href="/gallery"
+                  className="text-black/80 hover:text-black transition-colors"
+                >
+                  Галерея
+                </a>
+              </li>
+              <li>
+                <a
                   href="#about"
                   className="text-black/80 hover:text-black transition-colors"
                 >

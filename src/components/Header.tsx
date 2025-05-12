@@ -62,6 +62,12 @@ const Header: React.FC = () => {
             Литературный клуб
           </a>
           <a
+            href="/gallery"
+            className="font-medium text-burgundy hover:text-burgundy/80 transition-colors"
+          >
+            Галерея
+          </a>
+          <a
             href="#about"
             className="font-medium text-burgundy hover:text-burgundy/80 transition-colors whitespace-nowrap"
           >
@@ -129,6 +135,13 @@ const Header: React.FC = () => {
             onClick={() => setIsMobileMenuOpen(false)}
           >
             Литературный клуб
+          </a>
+          <a
+            href="/gallery"
+            className="text-lg font-medium text-burgundy"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            Галерея
           </a>
           <a
             href="#about"
