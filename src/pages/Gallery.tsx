@@ -63,7 +63,11 @@ const Gallery = () => {
             </p>
             <Button
               className="bg-burgundy text-cream hover:bg-burgundy/90 py-6 px-8"
-              onClick={() => (window.location.href = "/#contact")}
+              onClick={() =>
+                document
+                  .getElementById("contact")
+                  ?.scrollIntoView({ behavior: "smooth" })
+              }
             >
               <Icon name="MessageSquare" className="mr-2 h-5 w-5" />
               Связаться с наставником

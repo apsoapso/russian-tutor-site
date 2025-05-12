@@ -48,7 +48,14 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
         </ul>
       </CardContent>
       <CardFooter>
-        <Button className="w-full bg-burgundy text-cream hover:bg-burgundy/90">
+        <Button
+          className="w-full bg-burgundy text-cream hover:bg-burgundy/90"
+          onClick={() =>
+            document
+              .getElementById("contact")
+              ?.scrollIntoView({ behavior: "smooth" })
+          }
+        >
           {cta}
         </Button>
       </CardFooter>
