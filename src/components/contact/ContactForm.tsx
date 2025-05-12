@@ -53,7 +53,20 @@ const FormField: React.FC<FormFieldProps> = ({
 const ContactForm: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Логика отправки формы
+    // Открываем почтовый клиент с предзаполненным адресом
+    const name =
+      (document.getElementById("name") as HTMLInputElement)?.value || "";
+    const phone =
+      (document.getElementById("phone") as HTMLInputElement)?.value || "";
+    const email =
+      (document.getElementById("email") as HTMLInputElement)?.value || "";
+    const message =
+      (document.getElementById("message") as HTMLTextAreaElement)?.value || "";
+
+    const subject = "Запрос на онлайн-консультацию";
+    const body = `Имя: ${name}%0D%0AТелефон: ${phone}%0D%0AEmail: ${email}%0D%0A%0D%0AСообщение:%0D%0A${message}`;
+
+    window.location.href = `mailto:abashkina_aa@mail.ru?subject=${encodeURIComponent(subject)}&body=${body}`;
   };
 
   return (
