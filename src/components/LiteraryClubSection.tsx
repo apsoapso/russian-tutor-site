@@ -124,7 +124,6 @@ const LiteraryClubSection: React.FC = () => {
                     <span className="font-medium text-burgundy">
                       Олимпиадникам и выпускникам 9-11 классов
                     </span>
-                    , которые готовятся к конкурсным и итоговым испытаниям
                   </p>
                 </div>
               </div>
