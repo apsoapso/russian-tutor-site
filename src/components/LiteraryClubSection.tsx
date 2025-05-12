@@ -155,7 +155,14 @@ const LiteraryClubSection: React.FC = () => {
                   <span className="font-bold text-xl">11+</span>
                 </p>
               </div>
-              <Button className="bg-burgundy text-cream hover:bg-burgundy/90">
+              <Button
+                className="bg-burgundy text-cream hover:bg-burgundy/90"
+                onClick={() =>
+                  document
+                    .getElementById("contact")
+                    ?.scrollIntoView({ behavior: "smooth" })
+                }
+              >
                 Присоединиться к клубу
               </Button>
             </div>

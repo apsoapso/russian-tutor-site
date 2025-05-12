@@ -131,7 +131,14 @@ const ServicesSection: React.FC = () => {
             Не нашли подходящий формат? Свяжитесь со мной для обсуждения
             индивидуальной программы
           </p>
-          <Button className="bg-burgundy text-cream hover:bg-burgundy/90 text-lg py-6 px-8">
+          <Button
+            className="bg-burgundy text-cream hover:bg-burgundy/90 text-lg py-6 px-8"
+            onClick={() =>
+              document
+                .getElementById("contact")
+                ?.scrollIntoView({ behavior: "smooth" })
+            }
+          >
             Получить консультацию
           </Button>
         </div>
