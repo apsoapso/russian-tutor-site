@@ -32,7 +32,14 @@ const HeroSection: React.FC = () => {
             уровня.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <Button className="bg-burgundy text-cream hover:bg-burgundy/90 text-lg py-6 px-8">
+            <Button
+              className="bg-burgundy text-cream hover:bg-burgundy/90 text-lg py-6 px-8"
+              onClick={() =>
+                document
+                  .getElementById("contact")
+                  ?.scrollIntoView({ behavior: "smooth" })
+              }
+            >
               Записаться на урок
             </Button>
             <Button

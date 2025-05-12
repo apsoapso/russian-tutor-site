@@ -82,7 +82,14 @@ const Header: React.FC = () => {
         </nav>
 
         {/* CTA Button */}
-        <Button className="hidden md:flex bg-burgundy text-cream hover:bg-burgundy/90">
+        <Button
+          className="hidden md:flex bg-burgundy text-cream hover:bg-burgundy/90"
+          onClick={() =>
+            document
+              .getElementById("contact")
+              ?.scrollIntoView({ behavior: "smooth" })
+          }
+        >
           Записаться на урок
         </Button>
 
