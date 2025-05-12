@@ -13,11 +13,6 @@ const Gallery = () => {
     "https://cdn.poehali.dev/files/7308dcb5-007e-46bf-be57-1ccf8d88bf11.jpg",
     "https://cdn.poehali.dev/files/9533c309-2b29-476b-95d9-2d6c890d61e4.jpg",
     "https://cdn.poehali.dev/files/add1480d-89bd-4668-8982-d1d7c1485651.jpg",
-    "https://cdn.poehali.dev/files/608ef03b-769f-4d50-a6c6-cfaf959d6fc0.jpg",
-    "https://cdn.poehali.dev/files/114358cb-deb7-48b2-9ef6-5ee392cad51d.jfif",
-    "https://cdn.poehali.dev/files/e76baf78-b4f8-4379-b644-d5bbb75d9746.jpg",
-    "https://cdn.poehali.dev/files/1ab79ea0-73a7-41c2-ad9b-b7e9dca19a57.jpg",
-    "https://cdn.poehali.dev/files/32f907ae-2572-4e70-87c2-32a6d39b3558.jfif",
   ];
 
   return (
