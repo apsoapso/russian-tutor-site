@@ -56,6 +56,12 @@ const Header: React.FC = () => {
             Курсы
           </a>
           <a
+            href="#pricing"
+            className="font-medium text-burgundy hover:text-burgundy/80 transition-colors"
+          >
+            Калькулятор
+          </a>
+          <a
             href="#literary-club"
             className="font-medium text-burgundy hover:text-burgundy/80 transition-colors"
           >

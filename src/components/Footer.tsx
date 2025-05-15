@@ -69,6 +69,14 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a
+                  href="#pricing"
+                  className="text-black/80 hover:text-black transition-colors"
+                >
+                  Калькулятор
+                </a>
+              </li>
+              <li>
+                <a
                   href="#literary-club"
                   className="text-black/80 hover:text-black transition-colors"
                 >
